@@ -1,0 +1,9 @@
+@charset "UTF-8";
+p{
+    border-width: thicks;
+    border-style: groove;
+}
+div {
+    border-width: 1px 4px 8px 12px;
+    border-style: solid;
+}
