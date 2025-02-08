@@ -26,11 +26,30 @@ img {
   font-family: 'Philosopher', sans-serif;
   font-weight: normal;
 }
-.page-title {
+.page-title,
+.heading-large {
   font-size: 3rem;
   text-align: center;
+}
+.page-title {
   margin-top: 2rem;
   line-height: 1.4;
+}
+.heading-large {
+  margin-bottom: 1rem;
+}
+
+/* ボタン */
+.btn {
+  display: inline-block;
+  font-size: 1.5rem;
+  background-color: #0bd;
+  color: #fff;
+  border-radius: 8px;
+  padding: .75rem 1.5rem;
+}
+.btn:hover {
+  background-color: #0090aa;
 }
 
 /* ヘッダー */
@@ -62,4 +81,14 @@ img {
 }
 .cover-home {
   background-image: url(../images/cover-home-s.webp);
+}
+
+/* HOME */
+.about {
+  max-width: 736px;
+  padding: 0 1.5rem;
+  margin: 3rem auto 4rem;
+}
+.about p {
+  margin-bottom: 3rem;
 }
