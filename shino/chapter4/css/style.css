@@ -50,6 +50,7 @@ img {
 }
 .btn:hover {
   background-color: #0090aa;
+  transition: .5s;
 }
 
 /* ヘッダー */
