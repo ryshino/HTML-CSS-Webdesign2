@@ -219,6 +219,20 @@ iframe {
   margin: 0 auto 2rem;
 }
 
+/* SNS */
+.sns-item {
+  margin-bottom: 2rem;
+}
+.sns-item .heading-medium {
+  margin-bottom: .5rem;
+}
+.sns-youtube {
+  aspect-ratio: 16/9;
+}
+.sns-youtube iframe {
+  height: 100%;
+}
+
 /* フッター */
 .page-footer {
   background-image: url(../images/footer-s.webp);
@@ -335,6 +349,36 @@ iframe {
   .item-big img {
     height: 94.5%;
     width: 100%;
+  }
+
+  /* CONTACT */
+  .cover-contact {
+    background-image: url(../images/cover-contact-l.webp);
+  }
+  .location {
+    display: flex;
+    gap: 2rem;
+  }
+  .location-info {
+    width: 32%;
+  }
+  .location-info .info th {
+    padding-left: 2rem;
+  }
+  .location-map {
+    width: 64%;
+  }
+  .email {
+    margin-bottom: 4rem;
+  }
+  .sns {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 0;
+  }
+  .sns-item {
+    flex: 1;
   }
 
   /* フッター */
